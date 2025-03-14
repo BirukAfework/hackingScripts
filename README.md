@@ -1,1 +1,1 @@
-# hackingScripts
+# HackingScripts for Script Kiddies
