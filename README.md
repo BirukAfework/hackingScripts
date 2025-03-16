@@ -42,3 +42,8 @@ bash -c "exec 3<>/dev/tcp/192.168.1.100/80; echo -e 'GET /script.sh HTTP/1.1\r\n
 - This method only works for plain HTTP. For HTTPS, use tools like `curl` or `wget`.
 Don’t forget the reactions and stars⭐️! 
 They fuel my energy to post such contents🔋✨.
+
+
+# Learn More
+https://happycamper84.medium.com/powershell-for-pentesters-tryhackme-walkthrough-e629641ae1e5
+https://github.com/dievus/PowerShellForPentesters
