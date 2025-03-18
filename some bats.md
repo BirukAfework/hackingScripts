@@ -17,3 +17,30 @@ curl -L "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethio
 start "" "Flag_of_Ethiopia.png"
 exit
 ````
+#Some Powershell
+
+# Define the URL and output file path
+
+````
+$url = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/1200px-Flag_of_Ethiopia.svg.png"
+$outputFile = "Flag_of_Ethiopia.png"
+
+````
+# Download the image
+
+````
+Invoke-WebRequest -Uri $url -OutFile $outputFile
+
+````
+# Open the downloaded image
+
+````
+Start-Process $outputFile
+````
+
+````
+$url = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/1200px-Flag_of_Ethiopia.svg.png"
+$outputFile = "Flag_of_Ethiopia.png"
+Invoke-WebRequest -Uri $url -OutFile $outputFile
+Start-Process $outputFile
+````
